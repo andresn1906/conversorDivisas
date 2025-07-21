@@ -12,3 +12,4 @@ C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\D
 C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\calculadoraDivisas.pdb
 C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\calculadoraDivisas.genruntimeconfig.cache
 C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\ref\calculadoraDivisas.dll
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\calculadoraDivisas.sourcelink.json

@@ -3,23 +3,36 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Decimal valor = 190605.557m;
         Console.OutputEncoding = System.Text.Encoding.UTF8;
+        
+        Decimal valorCop = 190605.557m;
+        Decimal USD = 0.00026m;
+        Decimal GBP = 0.00020m;
+        Decimal EUR = 0.00024m;
+        Decimal JP = 0.038m;
+        Decimal CH = 0.0019m;
+        Decimal MX = 0.0045m;
+        Decimal BR = 0.0014m;
 
         Console.WriteLine("Conversor de divisas a diferentes formatos por países:");
         Console.ReadKey();
-        Console.WriteLine($"Estados Unidos: {valor.ToString("C2", new CultureInfo("en-US"))}");
-        Console.WriteLine($"Reino Unido: {valor.ToString("C2", new CultureInfo("en-GB"))}");
-        Console.WriteLine($"Francia: {valor.ToString("C2", new CultureInfo("fr-FR"))}");
-        Console.WriteLine($"Japón: {valor.ToString("C2", new CultureInfo("ja-JP"))}");
-        Console.WriteLine($"España: {valor.ToString("C2", new CultureInfo("es-ES"))}");
-        Console.WriteLine($"Portugal: {valor.ToString("C2", new CultureInfo("pt-PT"))}");
-        Console.WriteLine($"Italia: {valor.ToString("C2", new CultureInfo("it-IT"))}");
-        Console.WriteLine($"China: {valor.ToString("C2", new CultureInfo("zh-CN"))}");
-        Console.WriteLine($"Alemania: {valor.ToString("C2", new CultureInfo("de-DE"))}");
-        Console.WriteLine($"Rusia: {valor.ToString("C2", new CultureInfo("ru-RU"))}");
-        Console.WriteLine($"Colombia: {valor.ToString("C2", new CultureInfo("es-CO"))}");
-        Console.WriteLine($"México: {valor.ToString("C2", new CultureInfo("es-MX"))}");
+
+        Console.WriteLine($"Colombia (moneda original): {valorCop.ToString("C2", new CultureInfo("es-CO"))}");
+        Decimal valorUSD = valorCop * USD;
+        Console.WriteLine($"Estados Unidos: {valorUSD.ToString("C2", new CultureInfo("en-US"))}");
+        Decimal valorGBP = valorCop * GBP;
+        Console.WriteLine($"Reino Unido: {valorGBP.ToString("C2", new CultureInfo("en-GB"))}");
+        Decimal valorEUR = valorCop * EUR;
+        Console.WriteLine($"Francia: {valorEUR.ToString("C2", new CultureInfo("fr-FR"))}");
+        Decimal valorJP = valorCop * JP;
+        Console.WriteLine($"Japón: {valorJP.ToString("C2", new CultureInfo("ja-JP"))}");
+        Decimal valorCH = valorCop * CH;
+        Console.WriteLine($"China: {valorCH.ToString("C2", new CultureInfo("zh-CN"))}");
+        Decimal valorBR = valorCop * BR;
+        Console.WriteLine($"Rusia: {valorBR.ToString("C2", new CultureInfo("ru-RU"))}");
+        Decimal valorMX = valorCop * MX;
+        Console.WriteLine($"México: {valorMX.ToString("C2", new CultureInfo("es-MX"))}");
+        
         Console.ReadKey();
     }
 }
