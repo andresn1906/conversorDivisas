@@ -1,0 +1,14 @@
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\bin\Debug\net8.0\calculadoraDivisas.exe
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\bin\Debug\net8.0\calculadoraDivisas.deps.json
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\bin\Debug\net8.0\calculadoraDivisas.runtimeconfig.json
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\bin\Debug\net8.0\calculadoraDivisas.dll
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\bin\Debug\net8.0\calculadoraDivisas.pdb
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\calculadoraDivisas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\calculadoraDivisas.AssemblyInfoInputs.cache
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\calculadoraDivisas.AssemblyInfo.cs
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\calculadoraDivisas.csproj.CoreCompileInputs.cache
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\calculadoraDivisas.dll
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\refint\calculadoraDivisas.dll
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\calculadoraDivisas.pdb
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\calculadoraDivisas.genruntimeconfig.cache
+C:\Users\Violeta19\OneDrive\Escritorio\Programación\C#\calculadoraDivisas\obj\Debug\net8.0\ref\calculadoraDivisas.dll
