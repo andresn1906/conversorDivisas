@@ -6,7 +6,8 @@ internal class Program
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         
         Decimal valorCop = 0m;
-        Decimal USD = 0.00026m;
+        
+        Decimal USD = 0.00025m;
         Decimal GBP = 0.00020m;
         Decimal EUR = 0.00024m;
         Decimal JP = 0.038m;
@@ -17,10 +18,10 @@ internal class Program
         Console.WriteLine("Conversor de divisas a diferentes formatos por países:");
         Console.ReadKey();
 
-        Console.WriteLine('Valor de COP a convertir: ');
+        Console.Write("Valor de COP a convertir: ");
         valorCop = Convert.ToDecimal(Console.ReadLine());
-        
-        ($"Colombia (moneda original): {valorCop.ToString("C2", new CultureInfo("es-CO"))}")
+
+        Console.WriteLine($"Colombia (moneda original): {valorCop.ToString("C2", new CultureInfo("es-CO"))}");
         Decimal valorUSD = valorCop * USD;
         Console.WriteLine($"Estados Unidos: {valorUSD.ToString("C2", new CultureInfo("en-US"))}");
         Decimal valorGBP = valorCop * GBP;
